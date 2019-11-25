@@ -54,6 +54,7 @@ class Concentration {
     }
     
     func newGame() {
+        indexOfOneAndOnlyFaceUpCard = nil
         cards = [Card]()
         for _ in 0..<numberOfPairsOfCards {
             let card = Card()
