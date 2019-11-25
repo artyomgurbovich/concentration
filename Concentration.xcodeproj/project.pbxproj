@@ -13,6 +13,8 @@
 		9A087A1123871B4E00727AA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A087A0F23871B4E00727AA9 /* Main.storyboard */; };
 		9A087A1323871B5000727AA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A087A1223871B5000727AA9 /* Assets.xcassets */; };
 		9A087A1623871B5000727AA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A087A1423871B5000727AA9 /* LaunchScreen.storyboard */; };
+		9A6935DF238ABAAD0030A7C7 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6935DE238ABAAD0030A7C7 /* Concentration.swift */; };
+		9A6935E1238B0FEF0030A7C7 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6935E0238B0FEF0030A7C7 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9A087A1223871B5000727AA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A087A1523871B5000727AA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A087A1723871B5000727AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A6935DE238ABAAD0030A7C7 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		9A6935E0238B0FEF0030A7C7 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				9A087A0B23871B4E00727AA9 /* SceneDelegate.swift */,
 				9A087A0D23871B4E00727AA9 /* ViewController.swift */,
 				9A087A0F23871B4E00727AA9 /* Main.storyboard */,
+				9A6935DE238ABAAD0030A7C7 /* Concentration.swift */,
+				9A6935E0238B0FEF0030A7C7 /* Card.swift */,
 				9A087A1223871B5000727AA9 /* Assets.xcassets */,
 				9A087A1423871B5000727AA9 /* LaunchScreen.storyboard */,
 				9A087A1723871B5000727AA9 /* Info.plist */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A087A0E23871B4E00727AA9 /* ViewController.swift in Sources */,
+				9A6935DF238ABAAD0030A7C7 /* Concentration.swift in Sources */,
+				9A6935E1238B0FEF0030A7C7 /* Card.swift in Sources */,
 				9A087A0A23871B4E00727AA9 /* AppDelegate.swift in Sources */,
 				9A087A0C23871B4E00727AA9 /* SceneDelegate.swift in Sources */,
 			);
@@ -293,7 +301,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Artyom-Gurbovich.Concentration";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +318,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Artyom-Gurbovich.Concentration";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
